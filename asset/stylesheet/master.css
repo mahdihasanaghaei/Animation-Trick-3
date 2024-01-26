@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+.text {
+  border: 5px solid #1086e8;
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: border 2s linear infinite;
+}
+.text > h1 {
+  color: #FF00E6;
+  font-family: "Raleway", sans-serif;
+  font-size: 64px;
+  letter-spacing: 10px;
+  animation: text 3s linear infinite;
+}
+.text > h1 #char {
+  animation: letter 2s linear infinite;
+  margin: 0 -25px;
+}
+
+@keyframes text {
+  0% {
+    opacity: 0.1;
+    text-shadow: 0px 0px 29px rgb(242, 22, 22);
+  }
+  2% {
+    opacity: 1;
+    text-shadow: 0px 0px 29px rgb(242, 22, 22);
+  }
+  8% {
+    opacity: 0.1;
+    text-shadow: 0px 0px 29px rgb(242, 22, 22);
+  }
+  9% {
+    opacity: 1;
+    text-shadow: 0px 0px 29px rgb(242, 22, 22);
+  }
+  12% {
+    opacity: 0.1;
+    text-shadow: 0px 0px rgb(242, 22, 22);
+  }
+  20% {
+    opacity: 1;
+    text-shadow: 0px 0px 29px rgb(242, 22, 22);
+  }
+  25% {
+    opacity: 0.3;
+    text-shadow: 0px 0px 29px rgb(242, 22, 22);
+  }
+  30% {
+    opacity: 1;
+    text-shadow: 0px 0px 29px rgb(242, 22, 22);
+  }
+  70% {
+    opacity: 0.7;
+    text-shadow: 0px 0px 29px rgb(242, 22, 22);
+  }
+  72% {
+    opacity: 0.2;
+    text-shadow: 0px 0px 29px rgb(242, 22, 22);
+  }
+  77% {
+    opacity: 0.9;
+    text-shadow: 0px 0px 29px rgb(242, 22, 22);
+  }
+  100% {
+    opacity: 0.9;
+    text-shadow: 0px 0px 29px rgb(242, 22, 22);
+  }
+}
+@keyframes border {
+  0% {
+    opacity: 0.1;
+    box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+  }
+  2% {
+    opacity: 1;
+    box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+  }
+  4% {
+    opacity: 0.1;
+    box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+  }
+  8% {
+    opacity: 1;
+    box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+  }
+  70% {
+    opacity: 0.7;
+    box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+  }
+  100% {
+    opacity: 1;
+    box-shadow: 0px 0px 78px 4px rgba(16, 134, 232, 0.73);
+  }
+}
+@keyframes letter {
+  0% {
+    opacity: 0.1;
+    text-shadow: 0px 0px 29px rgb(242, 22, 22);
+  }
+  2% {
+    opacity: 0.1;
+    text-shadow: 0px 0px 29px rgb(242, 22, 22);
+  }
+  4% {
+    opacity: 1;
+    text-shadow: 0px 0px 29px rgb(242, 22, 22);
+  }
+  19% {
+    opacity: 1;
+    text-shadow: 0px 0px 29px rgb(242, 22, 22);
+  }
+  21% {
+    opacity: 0.1;
+    text-shadow: 0px 0px 29px rgb(242, 22, 22);
+  }
+  23% {
+    opacity: 1;
+    text-shadow: 0px 0px 29px rgb(242, 22, 22);
+  }
+  80% {
+    opacity: 1;
+    text-shadow: 0px 0px 29px rgb(242, 22, 22);
+  }
+  83% {
+    opacity: 0.4;
+    text-shadow: 0px 0px 29px rgb(242, 22, 22);
+  }
+  87% {
+    opacity: 1;
+    text-shadow: 0px 0px 29px rgb(242, 22, 22);
+  }
+}/*# sourceMappingURL=master.css.map */
